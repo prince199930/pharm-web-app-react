@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+.medcity-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 11vh;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+.logo{
+    display: flex;
+    margin-left: 4%;
+    margin-top: .5%;
+    height: 64px;
+    
+}
+
+.login-part{
+    display: flex;
+    margin-right: 4%;
+}
+
+.logout{
+    width: 45%;
+    height: 4vh;
+    margin-top: 18%;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: #a0efa0;
+    border: none;
+}
+
+.logo-img{
+    margin-right: 4%;
+}

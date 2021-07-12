@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+.LogIn-page{
+    margin-top: -2%;
+    background-image: linear-gradient(173deg, #6ecadf, #ce58f2);
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.manager-login{
+    background-image: linear-gradient(#767af5, #a13fe7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 2px #a13fe7;
+    border-radius: 14px;
+    width: 41%;
+    height: 210px;
+    margin-left: 29%;
+    background-color: #fff;
+    margin-bottom: 4%;
+}
+
+.executive-login{
+    background-image: linear-gradient(#767af5, #a13fe7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 2px #a13fe7;
+    border-radius: 14px;
+    width: 41%;
+    height: 210px;
+    margin-left: 29%;
+    background-color: #fff;
+    margin-bottom: 4%;
+}
+
+input{
+    width: 51%;
+    height: 12%;
+    margin-bottom: 3%;
+    background-color: #ccc;
+    color: black;
+    border-radius: 14px;
+    padding: 1.5%;
+    border: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.Managerlog{
+    margin-bottom: 3%;
+    width: 41%;
+    border-radius: 10px;
+    padding: 1.5%;
+    background-image: linear-gradient(173deg, #6ecadf, #ce58f2);
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+
+.ExecutiveLog{
+    margin-bottom: 3%;
+    width: 41%;
+    border-radius: 10px;
+    padding: 1.5%;
+    background-image: linear-gradient(173deg, #6ecadf, #ce58f2);
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
